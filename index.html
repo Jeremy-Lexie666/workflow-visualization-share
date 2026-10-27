@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>流程可视化查询分享</title><link rel="icon" type="image/svg+xml" href="assets/light/favicon.svg?v=1"><link rel="stylesheet" href="assets/light/light.css"><link rel="stylesheet" href="assets/light/closing.css"><link rel="stylesheet" href="assets/light/product-cover.css"></head>
+<body>
+<header class="site-header"><div class="header-inner"><a href="#cover" class="brand"><span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i></span>流程可视化</a><nav aria-label="汇报章节"><a href="#cover" data-section="cover" aria-current="page"><span>01</span>产品实践</a><a href="#methods" data-section="methods"><span>02</span>配置方式</a><a href="#pains" data-section="pains"><span>03</span>业务难点</a><a href="#inspiration" data-section="inspiration"><span>04</span>设计灵感</a><a href="#showcase" data-section="showcase"><span>05</span>产品展示</a><a href="#roadmap" data-section="roadmap"><span>06</span>产品规划</a></nav></div></header>
+<main>
+<section class="hero page-section" id="cover" aria-labelledby="hero-title">
+<div class="hero-main" id="hero-spotlight"><div class="hero-panel spotlight-card">
+<span class="spotlight-card__light" aria-hidden="true"></span><span class="spotlight-card__edge" aria-hidden="true"></span>
+<div class="hero-copy"><h1 id="hero-title"><span class="title-reveal">让复杂，</span><span class="title-reveal accent">变得清晰。</span></h1><p class="hero-description">保留现有配置方式，让每一条审批路径，清晰可见。</p></div>
+<div class="hero-visual has-spline" id="hero-spline" data-scene-url="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode" data-scene-background="#f5f7fb" data-spline-state="fallback" role="img" aria-label="可随鼠标交互的三维场景">
+<div class="spline-fallback" aria-hidden="true"><div class="scene-orbit"></div><img src="assets/light/threads-fallback.svg" width="840" height="600" alt="" class="weave-fallback"></div><div class="spline-stage" aria-hidden="true"></div>
+</div></div></div>
+<div class="hero-summary" aria-label="当前版本能力"><span><i>01</i>自然语言查询</span><span><i>02</i>条件与节点展示</span><span><i>03</i>结果导出</span></div>
+<footer class="section-footer"><a href="#methods">向下展开 <span aria-hidden="true">↓</span></a></footer>
+</section>
+<section class="methods page-section" id="methods" aria-labelledby="methods-title"><div class="methods-heading"><div><h2 id="methods-title">流程，可以怎样配置？</h2><p class="section-intro">三种常见方式，各有适用场景。</p></div></div>
+<div class="method-grid">
+<article class="method-card spotlight-card"><span class="spotlight-card__light" aria-hidden="true"></span><span class="spotlight-card__edge" aria-hidden="true"></span><div class="card-topline"><span>01 / MODEL</span><span class="card-category">标准化表达</span></div><div class="method-art" aria-hidden="true"><img src="assets/light/manypixels/model.svg" alt="" decoding="async"></div><h3>流程图建模</h3><p class="method-meta">以 BPMN 为代表，通过图形定义流程</p><div class="card-details"><div><span class="detail-label">优势</span><p>流程结构直观，<br>便于标准化沟通。</p></div><div><span class="detail-label">局限</span><p>存在建模门槛，<br>特殊规则仍需扩展。</p></div></div></article>
+<article class="method-card spotlight-card"><span class="spotlight-card__light" aria-hidden="true"></span><span class="spotlight-card__edge" aria-hidden="true"></span><div class="card-topline"><span>02 / CONFIGURE</span><span class="card-category">业务容易上手</span></div><div class="method-art" aria-hidden="true"><img src="assets/light/manypixels/configure.svg" alt="" decoding="async"></div><h3>组件化配置</h3><p class="method-meta">通过表单、条件和审批组件配置流程</p><div class="card-details"><div><span class="detail-label">优势</span><p>业务容易上手，<br>常见配置效率高。</p></div><div><span class="detail-label">局限</span><p>受预置能力限制，<br>特殊场景需要扩展。</p></div></div></article>
+<article class="method-card current-method spotlight-card"><span class="spotlight-card__light" aria-hidden="true"></span><span class="spotlight-card__edge" aria-hidden="true"></span><div class="card-topline"><span>03 / SCRIPT</span><span class="current-badge"><i></i>我们目前采用</span></div><div class="method-art" aria-hidden="true"><img src="assets/light/manypixels/script.svg" alt="" decoding="async"></div><h3>脚本化配置</h3><p class="method-meta">通过脚本定义规则与审批节点</p><div class="card-details"><div><span class="detail-label">优势</span><p>规则灵活，可处理复杂组织<br>和动态找人。</p></div><div><span class="detail-label">局限</span><p>依赖研发，<br>理解与验收成本较高。</p></div></div></article>
+</div><a href="#cover" class="methods-back" aria-label="返回开场">↑</a></section>
+<section class="pains page-section" id="pains" aria-labelledby="pains-title">
+<div class="pains-detail">
+<div class="pains-heading"><h2 id="pains-title">看不清，<span>改不准，</span><br>验得慢。</h2><p>理解现状、表达需求、确认结果，每一步都需要反复沟通与核对。</p></div>
+<div class="pain-list">
+<article class="pain-list-card"><span class="pain-list-number" aria-hidden="true">01</span><div><h3>流程是个黑盒</h3><p>页面只展示某次申请命中的路径，完整规则和其他分支，仍需要研发查看脚本。</p></div></article>
+<article class="pain-list-card"><span class="pain-list-number" aria-hidden="true">02</span><div><h3>一句话，多种理解</h3><p>校区、组织、身份、条件与例外需要反复补齐。修改多处脚本，还要兼顾原有规则。</p></div></article>
+<article class="pain-list-card"><span class="pain-list-number" aria-hidden="true">03</span><div><h3>逐个验，难以覆盖</h3><p>切换账号、构造不同条件，再肉眼核对节点，既耗时，也容易遗漏边界和特殊分支。</p></div></article>
+</div>
+</div>
+<aside class="pain-summary" aria-labelledby="pain-summary-title"><p class="pain-summary-label">暑期集中调整</p><h3 id="pain-summary-title">从确认需求，<br>到反复验收。</h3><div class="pain-summary-metric"><strong><small>近</small> 1 <small>个月</small></strong><p>整个批量调整周期</p></div><p class="pain-summary-description">大量时间消耗在确认现状、解释需求和重复核对上。</p><div class="pain-summary-process" aria-label="批量调整的三个阶段"><span><i>01</i>需求确认</span><span><i>02</i>脚本修改</span><span><i>03</i>反复验收</span></div></aside>
+</section>
+<section class="architecture combined-inspiration report-chapter page-section" id="inspiration" aria-labelledby="inspiration-title">
+<span id="architecture" class="report-anchor" aria-hidden="true"></span>
+<div class="combined-heading"><div class="combined-origin"><p class="combined-label">设计灵感</p><h2 id="inspiration-title">把问研发的问题，<br>变成业务的<span>查询入口。</span></h2></div><div class="combined-principle"><p class="combined-label">实现思路</p><h3 id="architecture-title">AI 理解问题，<br><span>程序处理流程数据。</span></h3></div></div>
+<div class="architecture-figure" role="group" aria-label="流程可视化查询 1.0 逻辑架构：业务提问经过意图识别、匹配筛选、条件审核整理、路径合并以及展示导出；匹配筛选读取已导入的流程 Excel 数据。">
+<div class="architecture-query"><span>业务提问</span><p>“查询福田校区的请假流程。”</p><small>校区 · 组织 · 流程 · 审批人</small></div><div class="architecture-entry" aria-hidden="true"><span>↓</span></div>
+<ol class="architecture-pipeline">
+<li class="architecture-step architecture-step-ai"><div class="architecture-step-label"><span>01</span><b>大模型</b></div><h3>意图识别</h3><p>理解自然语言，<br>提取查询范围与条件。</p></li>
+<li class="architecture-step"><div class="architecture-step-label"><span>02</span><b>程序</b></div><h3>匹配与筛选</h3><p>匹配组织，<br>筛选对应流程记录。</p></li>
+<li class="architecture-step architecture-step-ai"><div class="architecture-step-label"><span>03</span><b>大模型</b></div><h3>条件审核与整理</h3><p>审核条件类型，<br>整理业务可读的表达。</p></li>
+<li class="architecture-step"><div class="architecture-step-label"><span>04</span><b>程序</b></div><h3>路径合并</h3><p>合并相同审批路径，<br>整理对应条件。</p></li>
+<li class="architecture-step"><div class="architecture-step-label"><span>05</span><b>程序</b></div><h3>展示与导出</h3><p>呈现条件与审批节点，<br>生成导出文件。</p></li>
+</ol><div class="architecture-data-feed"><span>↑ 读取已导入的数据</span></div>
+<div class="architecture-data"><span class="architecture-data-label">数据基础</span><div><span>现有脚本 / 程序配置</span><i aria-hidden="true">→</i><span>导出的流程 Excel</span><i aria-hidden="true">→</i><strong>已导入的数据版本</strong></div></div>
+</div>
+</section>
+<section class="product-showcase report-chapter page-section" id="showcase" aria-labelledby="showcase-title">
+<span id="capabilities" class="report-anchor" aria-hidden="true"></span>
+<h2 id="showcase-title">产品展示</h2>
+<div class="product-video-stage"><div class="product-player" id="product-player">
+<!-- 点击封面后才加载正式视频；封面和视频均使用报告内的相对路径。 -->
+<video class="product-video" id="product-video" data-src="assets/light/product-demo-v2.mp4" poster="assets/light/product-demo-v2-cover.jpg" playsinline preload="none" aria-label="产品展示视频" hidden></video>
+<button class="product-video-start" id="product-video-start" type="button" aria-label="播放产品展示视频">
+<img class="product-cover-image" src="assets/light/product-demo-v2-cover.jpg" alt="" width="2560" height="1440" decoding="async">
+<span class="product-cover-play" aria-hidden="true"><span class="product-play-symbol"></span></span>
+</button>
+<p class="product-player-status" id="product-player-status" role="status" aria-live="polite" hidden></p>
+</div></div>
+</section>
+<section class="product-roadmap report-chapter page-section" id="roadmap" aria-labelledby="roadmap-title">
+<h2 id="roadmap-title">流程可视化查询<span>里程碑</span></h2>
+<div class="milestone-stage" id="milestone-stage" style="--milestone-card-x:26%">
+<article class="milestone-card" id="milestone-panel" role="tabpanel" aria-labelledby="milestone-tab-0">
+<div class="milestone-content" id="milestone-content"><div class="milestone-card-meta"><span>第一阶段</span></div><h3>流程节点可视化V1.0上线</h3><ul><li>运营通过后台进行可视化流程查询。</li><li>导出流程节点表格，了解现有配置。</li></ul><span class="milestone-card-number" aria-hidden="true">01</span></div>
+</article>
+<div class="milestone-rail" id="milestone-rail" aria-hidden="true" style="--milestone-point-x:12.5%"><svg viewBox="0 0 1000 100" preserveAspectRatio="none"><path class="milestone-baseline" d="M 0 75 H 1000"/><path class="milestone-curve" id="milestone-curve" d="M 0 75 H 25 C 75 75 75 20 125 20 C 175 20 175 75 225 75 H 1000"/><path class="milestone-stem" id="milestone-stem" d="M 125 0 V 20"/></svg><span class="milestone-marker"></span></div>
+<div class="milestone-tabs" role="tablist" aria-label="产品规划四个阶段">
+<button class="milestone-tab" id="milestone-tab-0" type="button" role="tab" aria-selected="true" aria-controls="milestone-panel" tabindex="0" data-milestone="0"><span class="milestone-index">01</span><strong>流程节点可视化V1.0上线</strong><span class="milestone-phase">第一阶段</span></button>
+<button class="milestone-tab" id="milestone-tab-1" type="button" role="tab" aria-selected="false" aria-controls="milestone-panel" tabindex="-1" data-milestone="1"><span class="milestone-index">02</span><strong>运营试运行</strong><span class="milestone-phase">第二阶段</span></button>
+<button class="milestone-tab" id="milestone-tab-2" type="button" role="tab" aria-selected="false" aria-controls="milestone-panel" tabindex="-1" data-milestone="2"><span class="milestone-index">03</span><strong>开放流程查询</strong><span class="milestone-phase">第三阶段</span></button>
+<button class="milestone-tab" id="milestone-tab-3" type="button" role="tab" aria-selected="false" aria-controls="milestone-panel" tabindex="-1" data-milestone="3"><span class="milestone-index">04</span><strong>产运自主调整</strong><span class="milestone-phase">第四阶段</span></button>
+</div>
+</div>
+</section>
+<section class="closing page-section" id="closing" data-nav-section="roadmap" aria-labelledby="closing-title">
+<div class="closing-scene" aria-hidden="true"><canvas id="closing-particles"></canvas><div class="closing-scene-haze"></div></div>
+<div class="closing-copy">
+<p class="closing-eyebrow">流程可视化查询</p>
+<h2 id="closing-title">让复杂，<span>变得清晰。</span></h2>
+<p class="closing-description">从看清流程开始，<br>让每一次沟通与调整更有依据。</p>
+</div>
+<footer class="closing-footer"><div class="closing-actions"><a href="#cover">回到开场 <span aria-hidden="true">↗</span></a><a href="#showcase">查看产品展示 <span aria-hidden="true">↗</span></a></div></footer>
+</section>
+</main>
+<script src="assets/light/spotlight.js"></script><script src="assets/light/spline-hero.js"></script><script src="assets/light/light.js"></script><script src="assets/light/closing.js"></script>
+</body></html>

@@ -1,0 +1,57 @@
+[
+  {
+    "card": "model",
+    "file": "model.svg",
+    "name": "Creative Process",
+    "style": "Birdview",
+    "source": "https://cdn.prod.website-files.com/69b15b68fb5a0ea0e6ef48b6/69b15b68fb5a0ea0e6ef6ffe_yq6afJ-YunzgQjJqU948lUPqJbVIZ4JkSmtU8-cJFhc.svg",
+    "gallery": "https://www.manypixels.co/gallery",
+    "changes": {
+      "palette": {
+        "#68E1FD": "#8DAADD",
+        "#29ABE2": "#3255A4",
+        "#EF8989": "#E3EBF8",
+        "#E85454": "#6F90C6",
+        "#00275E": "#253D68"
+      }
+    },
+    "source_sha256": "a3391d767ff11fcd08adf90135cb2b4796b752568d4700a190c395944d7ad6e1"
+  },
+  {
+    "card": "configure",
+    "file": "configure.svg",
+    "name": "Checklist 1",
+    "style": "Birdview",
+    "source": "https://cdn.prod.website-files.com/69b15b68fb5a0ea0e6ef48b6/69b15b68fb5a0ea0e6ef6f38_URy0Rumbi5JdyZ_akL-Ool-X0lRN2vX22kCxpDn4rGU.svg",
+    "gallery": "https://www.manypixels.co/gallery",
+    "changes": {
+      "palette": {
+        "#68E1FD": "#91AEDA",
+        "#F77F26": "#E3EBF8",
+        "#FCB749": "#3255A4",
+        "#0E5648": "#6F8AB9",
+        "#AA003D": "#6D89B9",
+        "#AA4200": "#3E609F"
+      }
+    },
+    "source_sha256": "0813ea716a6cf6c0cefa7e697b63dfeb7be443326ed51b0cb3914ba4dbb2e83b"
+  },
+  {
+    "card": "script",
+    "file": "script.svg",
+    "name": "Coding 4",
+    "style": "Birdview",
+    "source": "https://cdn.prod.website-files.com/69b15b68fb5a0ea0e6ef48b6/69b15b68fb5a0ea0e6ef6f89_TKB6LUYLSonVGb4IA7uR_SnJTesc_vdRMRfUwIVO1gQ.svg",
+    "gallery": "https://www.manypixels.co/gallery",
+    "changes": {
+      "palette": {
+        "#68E1FD": "#91AEDA",
+        "#AA29A4": "#E3EBF8",
+        "#8CC63F": "#3255A4",
+        "#2E90A0": "#6F8AB9",
+        "#F7931E": "#91AEDA"
+      }
+    },
+    "source_sha256": "c3d24f9e70b38b0332853435609630ba14774f24ca8f888d1bb5a6cb1c22d3c5"
+  }
+]
